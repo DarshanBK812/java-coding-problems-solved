@@ -10,6 +10,7 @@ This repository is a comprehensive collection of Java solutions to various codin
 - 📚 Data Structures & Algorithms (DSA)
 - 🧠 Scenario-based logic problems
 - 🌊 Java Streams and Functional Interfaces
+- including few functional programming problems
 
 ---
 
