@@ -18,6 +18,14 @@ public class Reverse_Each_Word_in_a_Sentence {
 		}
 //		System.out.println(str2);
 	}
+
+	public static void reverseEachWord(String str) {
+    String[] words = str.split(" ");
+    for (String word : words) {
+        StringBuilder sb = new StringBuilder(word);
+        System.out.print(sb.reverse().toString() + " ");
+    }
+}
 	
 	public static void main(String[] args) {
 		String str = "java";
