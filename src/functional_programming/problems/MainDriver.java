@@ -15,13 +15,14 @@ public class MainDriver {
 				new Emplyoee(1, "jkl", 22, 213123),
 				new Emplyoee(1, "xyz", 23, 213123));
 		
-		System.out.println(emplyoees.stream().map(e ->{ 
-			if(e.getAge() > 25) {
-				e.setSal(e.getSal()* 0.1);
-			}
-			return e;
-		}
-		).toList() );
+		// System.out.println(emplyoees.stream().map(e ->{ 
+		// 	if(e.getAge() > 25) {
+		// 		e.setSal(e.getSal()* 0.1);
+		// 	}
+		// 	return e;
+		// }
+		// ).toList() );
+		System.out.println(employee.stream().filter(emp -> emp.age > 25).map( emp -> emp.setSal(emp.getSal * 0.1).toList();
 		
 	}
 	
